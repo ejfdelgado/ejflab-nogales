@@ -1,0 +1,23 @@
+{
+  "name": "@ejfdelgado/ejflab-nogales",
+  "version": "1.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejfdelgado/ejflab-nogales.git"
+  },
+  "description": "",
+  "scripts": {
+    "start": "npx nodemon app.mjs",
+    "mylogin": "npm login",
+    "mypublish": "npm publish --access=public"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "ejfdelgado",
+  "license": "ISC",
+  "private": false,
+  "dependencies": {
+    "@ejfdelgado/ejflab-back": "1.1.0"
+  }
+}
